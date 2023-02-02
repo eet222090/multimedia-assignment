@@ -50,7 +50,6 @@ file.close()
 
 #######################################################################################################
 
-
 nodes = []
 
 for x in range(len(chars)):
@@ -89,7 +88,6 @@ while True:
     
     # print(huffman_encode[char], end='')
     bit_string += huffman_encode[char]
-
 
 file.close()
 
